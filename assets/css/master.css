@@ -1,0 +1,31 @@
+/*--Master CSS File--*/
+/*--Navigation--*/
+.navbar {
+  margin: 1rem 1.5rem 1rem 2rem;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: Montserrat;
+  letter-spacing: 2px;
+}
+
+.navbar-brand:hover{
+  color: black;
+}
+
+.padding{
+  margin-right: .7rem;
+}
+
+.nav-link{
+  color: black!important;
+}
+
+.nav-link:hover{
+  box-shadow: inset 0 -3px 0 black;
+}

@@ -1,0 +1,7 @@
+/*--Global CSS entries go here--*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+
+html, body, * {
+  margin: 0;
+  padding: 0;
+}
