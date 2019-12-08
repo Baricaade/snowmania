@@ -55,13 +55,48 @@
   color: black;
 }
 
+.active{
+  color: black;
+  box-shadow: inset 0 -3px 0 black;
+}
+
+/*--Landing--*/
+
 .landing {
   height: 100vh;
   width: 100%;
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/backgroundwhiteoverlay.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   z-index: -999;
+  text-align: center;
+}
+
+.landing-header{
+  padding-top: 35%;
+}
+
+.landing-header h1{
+  font-size: 50px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 500;
+  font-family: Montserrat;
+  letter-spacing: 2px;
+}
+
+.landing-header p{
+  font-size: 20px;
+  font-family: arial;
+  text-transform: none;
+}
+
+.landing-button button{
+  margin-top: 1rem;
+  border-color: black;
+  color: black;
+  border-width: medium;
+  border-radius: 0;
 }
