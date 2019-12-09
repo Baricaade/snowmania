@@ -120,13 +120,13 @@ html {
 
 /*--About Section--*/
 .snowmania-icon img {
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
 }
 
 .about-header {
   padding-top: 5rem;
-  padding-left: 5rem;
+  padding-left: 6rem;
 }
 
 .about-header h3 {
@@ -153,4 +153,23 @@ html {
 
 .content {
   padding: 5rem;
+  padding-bottom: 2rem;
+}
+
+.questions {
+  padding: 5rem;
+}
+
+.header {
+  font-size: 20px;
+  font-family: arial;
+  font-weight: 500;
+}
+
+.questions-divider {
+  height: 4px;
+  width: 11.5rem;
+  background: -webkit-linear-gradient(left, rgba(126, 212, 255), rgba(208, 124, 247));
+  background: -o-linear-gradient(left, rgba(126, 212, 255), rgba(208, 124, 247));
+  background: linear-gradient(to right, rgba(126, 212, 255), rgba(208, 124, 247));
 }
