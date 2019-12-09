@@ -5,3 +5,11 @@ html, body, * {
   margin: 0;
   padding: 0;
 }
+
+.section-divider {
+  height: 4px;
+  width: 7rem;
+  background: -webkit-linear-gradient(left, rgba(126, 212, 255), rgba(208, 124, 247));
+  background: -o-linear-gradient(left, rgba(126, 212, 255), rgba(208, 124, 247));
+  background: linear-gradient(to right, rgba(126, 212, 255), rgba(208, 124, 247));
+}
