@@ -35,7 +35,7 @@ html {
 }
 
 .navScroll .active {
-  box-shadow: inset 0 -3px 0 white;
+  box-shadow: inset 0 -3px 0 white !important;
 }
 
 .navScroll .fa-bars {
@@ -69,7 +69,7 @@ html {
   color: black;
 }
 
-.active {
+.navbar .active {
   color: black;
   box-shadow: inset 0 -3px 0 black;
 }
@@ -157,7 +157,7 @@ html {
 }
 
 .questions {
-  padding: 5rem;
+  padding: 0 5rem 5rem 5rem;
 }
 
 .header {
@@ -172,4 +172,59 @@ html {
   background: -webkit-linear-gradient(left, rgba(126, 212, 255), rgba(208, 124, 247));
   background: -o-linear-gradient(left, rgba(126, 212, 255), rgba(208, 124, 247));
   background: linear-gradient(to right, rgba(126, 212, 255), rgba(208, 124, 247));
+}
+
+/*--Explore Carousel--*/
+.explore {
+  padding-top: 4.5rem;
+}
+
+.carousel {
+  width: 100%;
+  height: 75vh;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  width: 100%;
+}
+
+.carousel-item {
+  z-index: -1;
+  width: 100% !important;
+  height: 75vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/*
+.carousel-item img{
+  width: 100%!important;
+  height: 75vh;
+  attachment: center;
+}
+*/
+.carousel-indicators li {
+  background-color: rgb(96, 96, 96) !important;
+}
+
+.carousel-caption {
+  color: black !important;
+  position: absolute;
+  text-align: left;
+  left: 5%;
+  width: 50%;
+  bottom: 10%;
+}
+
+.carousel-caption h5 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-weight: 500;
+  letter-spacing: .2px;
+}
+
+.carousel-caption p {
+  font-size: 18px;
 }
