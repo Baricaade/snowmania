@@ -153,11 +153,12 @@ html {
 
 .content {
   padding: 5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
 }
 
 .questions {
   padding: 0 5rem 5rem 5rem;
+  padding-top: 5rem;
 }
 
 .header {
@@ -227,4 +228,49 @@ html {
 
 .carousel-caption p {
   font-size: 18px;
+}
+
+/*--Policies Section--*/
+.policies-header {
+  padding-top: 5rem;
+  padding-left: 6rem;
+}
+
+.policies-header h3 {
+  font-size: 30px;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 500;
+  letter-spacing: .2px;
+}
+
+.policies-divider {
+  height: 4px;
+  width: 9.2rem;
+  background: -webkit-linear-gradient(left, rgba(126, 212, 255), rgba(208, 124, 247));
+  background: -o-linear-gradient(left, rgba(126, 212, 255), rgba(208, 124, 247));
+  background: linear-gradient(to right, rgba(126, 212, 255), rgba(208, 124, 247));
+}
+
+.policies-content {
+  /*
+  padding-right: 6rem;
+  padding-left: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  */
+  padding: 2rem 6rem 4rem 6rem;
+}
+
+.policies-content p{
+  font-size: 18px;
+}
+
+.number{
+  font-weight: 700;
+}
+
+.policies-subheader{
+  padding-bottom: 1rem;
 }
