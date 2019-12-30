@@ -274,3 +274,67 @@ html {
 .policies-subheader{
   padding-bottom: 1rem;
 }
+
+/*--Participate/Footer--*/
+
+.participate-header {
+  padding-top: 5rem;
+  padding-left: 6rem;
+}
+
+.participate-header h3 {
+  font-size: 30px;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 500;
+  letter-spacing: .2px;
+}
+
+.participate-divider {
+  height: 4px;
+  width: 13rem;
+  background: -webkit-linear-gradient(left, rgba(126, 212, 255), rgba(208, 124, 247));
+  background: -o-linear-gradient(left, rgba(126, 212, 255), rgba(208, 124, 247));
+  background: linear-gradient(to right, rgba(126, 212, 255), rgba(208, 124, 247));
+}
+
+.participate-content {
+  /*
+  padding-right: 6rem;
+  padding-left: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  */
+  padding: 2rem 5rem 4rem 5rem;
+}
+
+.footer-logo{
+  width: 150px;
+  height: 150px;
+  margin-left: 1rem;
+}
+
+.form-group input, .form-group select, .form-group textarea{
+  border-radius: 0;
+}
+
+.logo-text{
+  padding-top: 3.5rem;
+  padding-left: 2rem;
+}
+
+.logo-text h4{
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+.participate-section{
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+}
+
+.participate-section h5{
+  font-size: 18px;
+}
